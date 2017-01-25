@@ -1,0 +1,38 @@
+{
+  "name": "hypnotherapy",
+  "version": "1.0.0",
+  "description": "hypnotherapy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "hypnotherapy"
+  ],
+  "author": "Norman Aranez",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "http-server": "^0.9.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}

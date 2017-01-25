@@ -1,0 +1,43 @@
+header {
+    .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.site-header{
+    border-bottom: 1px solid;
+}
+
+.logo, .contact{
+    margin-bottom: 10px;
+}
+
+.logo {
+    padding: 0 10px;
+    .image-container {
+        width: 241px;
+        height: 26px;
+        margin: 25px 0;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+.contact{
+    text-align: right;
+    border-bottom: 4px solid;
+    span{
+        display: block;
+    }
+
+    .underline{
+        margin-top: 10px;
+        display: inline-block;
+        width: 100%;
+        border-bottom: 2px solid;
+    }
+}

@@ -1,0 +1,20 @@
+{
+   	"src": {
+	    "styles": [
+	      "assets/sass/**/*.scss"
+	    ],
+	    "images": [
+	    	"assets/images/**/*"
+	    ],
+	    "scripts": [
+	    	"node_modules/jquery/dist/jquery.js",
+		  	"node_modules/bootstrap-sass/assets/javascripts/bootstrap.js",
+		  	"bower_components/swiper/dist/js/swiper.js",
+		  	"assets/js/slider.js",
+	      	"assets/js/main.js"
+	    ],
+	    "fonts": [
+	    	"node_modules/font-awesome/fonts/*.*"
+	    ]
+	}
+}

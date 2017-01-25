@@ -1,0 +1,24 @@
+{
+  "name": "hypnotherapy",
+  "description": "hypnotherapy",
+  "main": "main.js",
+  "authors": [
+    "Norman Aranez"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "hypnotherapy"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swiper": "^3.4.1"
+  }
+}
