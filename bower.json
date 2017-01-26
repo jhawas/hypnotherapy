@@ -19,6 +19,9 @@
     "tests"
   ],
   "dependencies": {
-    "swiper": "^3.4.1"
+    "swiper": "^3.4.1",
+    "isotope": "^3.0.1",
+    "imagesloaded": "^4.1.1",
+    "parallax.js": "^1.4.2"
   }
 }

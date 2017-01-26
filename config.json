@@ -10,7 +10,11 @@
 	    	"node_modules/jquery/dist/jquery.js",
 		  	"node_modules/bootstrap-sass/assets/javascripts/bootstrap.js",
 		  	"bower_components/swiper/dist/js/swiper.js",
+		  	"bower_components/isotope/dist/isotope.pkgd.js",
+		  	"bower_components/imagesloaded/imagesloaded.pkgd.js",
+		  	"bower_components/parallax.js/parallax.js",
 		  	"assets/js/slider.js",
+		  	"assets/js/gallery.js",
 	      	"assets/js/main.js"
 	    ],
 	    "fonts": [

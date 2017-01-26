@@ -8716,6 +8716,24 @@ button.swiper-pagination-bullet {
   100% {
     transform: rotate(360deg); } }
 
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* ---- .grid-item ---- */
+.grid-sizer,
+.grid-item {
+  width: 33.333%; }
+
+.grid-item {
+  float: left; }
+
+.grid-item img {
+  display: block;
+  max-width: 100%; }
+
 header .container {
   padding-top: 10px;
   padding-bottom: 10px; }
@@ -8774,3 +8792,20 @@ nav.navbar {
 
 .swiper-container-v {
   background: #eee; }
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent; }
+
+.main-content {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.banner {
+  min-height: 400px;
+  position: relative; }
+  .banner h1 {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-50%);
+    right: 20px; }
