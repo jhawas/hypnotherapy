@@ -15,7 +15,10 @@
 	- run gulp on commandline to compile the file
 
 
-# other options
-	- run http-server to run locally
+# you can ran locally without apache or nginx by using http-server
+	* install
+	   	 npm install http-server -g
+	* run by typing in terminal/cmd
+		 node http-server/bin/http-server
 
 
