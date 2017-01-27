@@ -1,33 +1,56 @@
-
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
 @import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "node_modules/font-awesome/scss/font-awesome.scss";
 @import "swiper/swiper.scss";
 @import "gallery/gallery.scss";
 @import "variables";
-
 @import "components/header";
 @import "components/navigation";
 @import "components/slider";
-
 .parallax-window {
     min-height: 400px;
     background: transparent;
 }
 
-.main-content{
-	padding-top: 10px;
-	padding-bottom: 10px;
+.main-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.banner{
-	min-height: 400px;
+.banner {
+    min-height: 400px;
     position: relative;
-
-    h1{
-    	position: absolute;
-	    bottom: 50%;
-	    transform: translateY(-50%);
+    h1 {
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(-50%);
         right: 20px;
+    }
+}
+
+.social {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    span {
+        &.fa {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+        }
+    }
+    &.social-facebook{
+        background-color: #3a5696;
+    }
+    &.social-twitter{
+        background-color: #56c9f4;
+    }
+    &.social-google{
+        background-color: #df392d;
     }
 }

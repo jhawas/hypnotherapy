@@ -8768,6 +8768,9 @@ header .container {
 nav.navbar {
   margin-top: 20px; }
 
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: transparent; }
+
 .swiper-container {
   width: 100%;
   height: 100%; }
@@ -8809,3 +8812,23 @@ nav.navbar {
     bottom: 50%;
     transform: translateY(-50%);
     right: 20px; }
+
+.social {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  color: white; }
+  .social span.fa {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0; }
+  .social.social-facebook {
+    background-color: #3a5696; }
+  .social.social-twitter {
+    background-color: #56c9f4; }
+  .social.social-google {
+    background-color: #df392d; }
